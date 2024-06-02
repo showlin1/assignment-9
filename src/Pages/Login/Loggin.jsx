@@ -13,12 +13,14 @@ const Loggin = () => {
         const email = form.get('email');
         const password = form.get('password');
         console.log(email, password);
-        signIn(email, password)
+        signIn(email, password) 
             .then(result => {
                 console.log(result.user);
+                alert('login Successfully');
             })
             .catch(error =>{
                 console.error(error);
+                alert('not match in user email or password');
             })
     }
     return (
