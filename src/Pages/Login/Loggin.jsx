@@ -46,10 +46,13 @@ const Loggin = () => {
                     <button className="btn btn-primary">Login</button>
                 </div>
                 <div className="form-control mt-6">
+                    <p className="text-2xl text-center">or</p>
+                </div>
+                <div className="form-control mt-6">
                     <button onClick={handleGoogleSignIn} className="btn btn-primary">Google Login</button>
                 </div>
-                <div onClick={handleGithubSignIn} className="form-control mt-6">
-                    <button className="btn btn-primary">GitHub Login</button>
+                <div  className="form-control mt-6">
+                    <button onClick={handleGithubSignIn} className="btn btn-primary">GitHub Login</button>
                 </div>
             </form>
             <p className="text-center mt-4">Do not have an account <Link to='/register' className="text-blue-600 font-bold">Register</Link></p>
