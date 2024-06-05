@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProvider";
 import { FaEye ,FaEyeSlash} from "react-icons/fa";
+import Footer from "../Footer/Footer";
 
 
 const Register = () => {
@@ -108,7 +109,8 @@ const Register = () => {
                 {/* {
                     success && <p className="text-green-700">{success}</p>
                 } */}
-                <p className="text-center mt-4">Already have an account <Link className="text-blue-600 font-bold" to='/login'>Login</Link></p>
+                <p className="text-center mt-4 mb-8">Already have an account <Link className="text-blue-600 font-bold" to='/login'>Login</Link></p>
+                <Footer></Footer>
             </div>
         </div>
     );

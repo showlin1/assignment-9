@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProvider";
+import Footer from "../Footer/Footer";
 
 
 const Loggin = () => {
@@ -55,7 +56,8 @@ const Loggin = () => {
                     <button onClick={handleGithubSignIn} className="btn btn-primary">GitHub Login</button>
                 </div>
             </form>
-            <p className="text-center mt-4">Do not have an account <Link to='/register' className="text-blue-600 font-bold">Register</Link></p>
+            <p className="text-center mt-4 mb-8">Do not have an account <Link to='/register' className="text-blue-600 font-bold">Register</Link></p>
+            <Footer></Footer>
         </div>
     );
 };
