@@ -1,7 +1,7 @@
 [
     {
         "estate_title": "Prime Office Space Downtown",
-        "id": "1",
+        "id": 1,
         "segment_name": " Office buildings",
         "description": "Spacious office space in the heart of downtown with modern amenities.",
         "price": 1500000,
@@ -13,7 +13,7 @@
       },
       {
         "estate_title": "Luxury Retail Space",
-        "id": "2",
+        "id": 2,
         "segment_name": "Retail",
         "description": "High-end retail space in a prime shopping district.",
         "price": 800000,
@@ -25,7 +25,7 @@
       },
       {
         "estate_title": "Warehouse Facility",
-        "id": "3",
+        "id": 3,
         "segment_name": "Industrial",
         "description": "Large warehouse facility with easy access to major highways.",
         "price": 500000,
@@ -37,7 +37,7 @@
       },
       {
         "estate_title": "Modern Office Park",
-        "id": "4",
+        "id": 4,
         "segment_name": "Office",
         "description": "Modern office park with multiple buildings and ample parking.",
         "price": 1200000,
@@ -49,7 +49,7 @@
       },
       {
         "estate_title": "Downtown Retail Hub",
-        "id": "5",
+        "id": 5,
         "segment_name": "Retail",
         "description": "Retail hub located in the bustling downtown area, perfect for high foot traffic businesses.",
         "price": 950000,
@@ -61,7 +61,7 @@
       },
       {
         "estate_title": "Tech Startup Exterior Space",
-        "id": "6",
+        "id": 6,
         "segment_name": "Office",
         "description": "Ideal space for tech startups with open floor plan and high-speed internet.",
         "price": 1300000,
@@ -73,7 +73,7 @@
       },
       {
         "estate_title": "Ocean Plaza Shopping Center",
-        "id": "7",
+        "id": 7,
         "segment_name": "entertainment venues",
         "description": "Popular shopping center in suburban area with multiple retail units.",
         "price": 700000,
@@ -85,7 +85,7 @@
       },
       {
         "estate_title": "Corporate Headquarters",
-        "id": "8",
+        "id": 8,
         "segment_name": "Office",
         "description": "Corporate headquarters with executive suites and conference rooms.",
         "price": 2000000,
@@ -98,7 +98,7 @@
       },
       {
         "estate_title": "Industrial Complex",
-        "id": "9",
+        "id": 9,
         "segment_name": "Industrial",
         "description": "Expansive industrial complex with multiple buildings and loading docks.",
         "price": 2500000,
