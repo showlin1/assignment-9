@@ -1,5 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import Footer from "../Footer/Footer";
+import DynamicTitle from "../DynamicTitle/DynamicTitle";
 
 
 const EstateDetails = () => {
@@ -10,6 +11,9 @@ const EstateDetails = () => {
     console.log(estate);
     return (
         <div>
+            <div className="mt-10">
+                <DynamicTitle></DynamicTitle>
+            </div>
             <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-10 mb-14 mt-10">
                 <div>
                     <img src={estate.image} className="rounded-xl w-[700px] h-[400px]" />
