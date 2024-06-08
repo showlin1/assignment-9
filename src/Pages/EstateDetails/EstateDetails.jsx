@@ -20,7 +20,6 @@ const EstateDetails = () => {
                 </div>
                 <div>
                     <h2 className="card-title mb-2 ">{estates.estate_title}</h2>
-                    <p className="mb-2 text-xl"><span className="font-bold">Id: </span> {estate.id}</p>
                     <p className="mb-2 text-xl"><span className="font-bold">Segment_name: </span> {estate.segment_name}</p>
                     <p className="mb-2 text-xl"><span className="font-bold">Description: </span>{estate.description}</p>
                     <p className="mb-2 text-xl"><span className="font-bold">price: </span> {estate.price}</p>

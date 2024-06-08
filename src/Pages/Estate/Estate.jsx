@@ -9,7 +9,6 @@ const {image,estate_title,id,segment_name,description,price,status,area,location
                 <figure className="rounded-lg"><img src={image} /></figure>
                 <div className="card-body">
                     <h2 className="card-title mb-2 ">{estate_title}</h2>
-                    <p className="mb-2 text-xl"><span className="font-bold">Id: </span> {id}</p>
                     <p className="mb-2 text-xl"><span className="font-bold">Segment_name: </span> {segment_name}</p>
                     <p className="mb-2 text-xl"><span className="font-bold">Description: </span>{description}</p>
                     <p className="mb-2 text-xl"><span className="font-bold">price: </span> {price}</p>
